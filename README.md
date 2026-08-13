@@ -40,9 +40,11 @@ description="Удалить заметку (пример: delete_note имя_з�
 ## Установка и запуск
 
 ### 1. Клонирование репозитория
-
 ### 2. Установка зависимостей
 ```bash
+python3 -m venv venv
+source venv/bin/activate  # Для macOS / Linux
+venv\Scripts\activate   # Для Windows
 pip install -r requirements.txt
 ```
 ### 3. Настройка переменных окружения
