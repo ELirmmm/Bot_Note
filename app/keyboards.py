@@ -43,12 +43,3 @@ confirm_delete_note_kb = InlineKeyboardMarkup(
         ]
     ]
 )
-
-
-# notes_list=[]
-
-# async def kb_builder_notes():
-#     keyboard=InlineKeyboardBuilder()
-#     for note in notes_list:
-#         keyboard.add(InlineKeyboardButton(text=note, callback_data="open_note"))
-#     return keyboard.adjust(3).as_markup()
